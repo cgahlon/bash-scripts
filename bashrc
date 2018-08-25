@@ -1,4 +1,10 @@
 # System-wide .bashrc file for interactive bash(1) shells.
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
 if [ -z "$PS1" ]; then
    return
 fi
