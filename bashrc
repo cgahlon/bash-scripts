@@ -1,3 +1,13 @@
+# .bashrc
+
+# To implement for just your user:
+# overwrite exiting .bashrc: cp bashrc ~/.bashrc
+# append to existing .bashrc: cat bashrc >> ~/.bashrc
+
+# To implement for all users:
+# overwrite exiting .bashrc: cp bashrc /etc/bashrc
+# append to existing .bashrc: cat bashrc >> /etc/bashrc
+
 # System-wide .bashrc file for interactive bash(1) shells.
 
 # Uncomment the following line if you don't like systemctl's auto-paging "feature"
